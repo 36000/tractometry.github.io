@@ -20,40 +20,40 @@ Tractometry uses diffusion-weighted MRI (dMRI) to extract microstructural tissue
 
 [**Tractoscope**](https://nrdg.github.io/tractoscope): Visualization of large openly-available tractometry studies.
 
-## Examples
+## [Examples](examples/index.md)
 
 **pyAFQ**
 
 - *Basics*  
 
-  • [Introduction](_static/001-pyafq.html)  
-  • [Visualizing AFQ derivatives](_static/002-viz.html)
+  • [Introduction](examples/001.md)  
+  • [Visualizing AFQ derivatives](examples/002.md)
 
 - *Extensions* 
 
-  • [BabyAFQ: tractometry for infant dMRI data](_static/003-BabyAFQ.html)  
-  • [RecoBundles for tract delineation](_static/004-RecoBundles.html)
+  • [BabyAFQ: tractometry for infant dMRI data](examples/003.md)  
+  • [RecoBundles for tract delineation](examples/004.md)
 
 - *Adding New Bundles* 
 
-  • [Optic Radiations](_static/005-Optic-Radiations.html)  
-  • [Acoustic Radiations](_static/006-Acoustic-Radiations.html)  
-  • [SLF 1/2/3 Subdivisions](_static/007-SLF-Subdivisions.html)
+  • [Optic Radiations](examples/005.md)  
+  • [Acoustic Radiations](examples/006.md)  
+  • [SLF 1/2/3 Subdivisions](examples/007.md)
 
 - *Acceleration*
 
-  • [GPU Tractography](_static/008-GPU-Tractography.html)  
-  • [Multiprocessing for Model Fitting (Ray)](_static/009-Ray-MSMT.html)
+  • [GPU Tractography](examples/008.md)  
+  • [Multiprocessing for Model Fitting (Ray)](examples/009.md)
 
 **AFQ-Insight**
 
-- [Parametric Statistics for Group Comparison](_static/010-afqinsight-mass-univariate.html)  
-- [Regression: Predict Age from White Matter](_static/011-afqinsight-regression.html)  
-- [Classification: ALS Diagnosis](_static/012-afqinsight-classification.html)
+- [Parametric Statistics for Group Comparison](examples/010.md)  
+- [Regression: Predict Age from White Matter](examples/011.md)  
+- [Classification: ALS Diagnosis](examples/012.md)
 
 **Tractable**
 
-- [Fitting Generalized Additive Models (GAMs)](_static/013-tractable.html)
+- [Fitting Generalized Additive Models (GAMs)](examples/013.md)
 
 ## How to get help
 
@@ -82,7 +82,9 @@ We encourage you to seek help and share your questions with the community. Here'
 ```{eval-rst}
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :maxdepth: 1
+   :caption: Examples
+   :hidden:
 
+   examples/index.md
 ```
