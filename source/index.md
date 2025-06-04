@@ -83,7 +83,6 @@ We encourage you to seek help and share your questions with the community. Here'
 
 .. toctree::
    :maxdepth: 1
-   :caption: Examples
    :hidden:
 
    examples/index.md

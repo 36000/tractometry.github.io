@@ -4,7 +4,6 @@
 
 .. toctree::
    :maxdepth: 1
-   :caption: Examples
 
    001.md
    002.md
